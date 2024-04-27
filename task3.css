@@ -1,0 +1,72 @@
+/* code for traffic light */
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#outer{
+    background-color: #413839;
+    height: 80%;
+    width: 200px;
+    margin-left:40%;
+    margin-top: 50px;
+    border-radius:3%;
+}
+
+#first{
+    background-color:rgb(212, 42, 42);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:25px;
+}
+#second{
+    background-color:rgb(229, 158, 27);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#third{
+    background-color:rgb(61, 174, 61);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 40px;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*code for amazon navbar *{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+}
+a{
+    margin-right:194.5px;
+    text-decoration: none;
+} */

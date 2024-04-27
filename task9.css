@@ -1,0 +1,29 @@
+body{
+    background-color:#29166F;
+}
+div {
+    height: 200px;
+    width: 200px;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background-image: url(yin&yang.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border:20px solid white;
+    border-top: 20px solid #FED600;
+    border-left: 20px solid #FED600;
+    border-bottom: 20px solid #FED600;
+    animation: load 1.5s ease infinite; /* Changed timing function to linear */
+}
+
+@keyframes load {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg); /* Initial state */
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg); /* Final state */
+    }
+}
